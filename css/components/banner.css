@@ -1,0 +1,39 @@
+.banner{
+    background-image: url("../../images/pizza.jpg");
+    filter: grayscale(35%);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner div{
+    padding: 160px 0;
+}
+
+.banner h1{
+    font-size: 48px;
+    text-shadow: 2px 2px 4px black;
+    margin: 10px 0;
+}
+
+.banner a{
+    text-decoration: none;
+    color: white;
+    background-color: #007507;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.banner a:hover{
+    background-color: #005C04;
+}
+
+.banner p{
+    font-size: 1.4em;
+    margin: 0 0 40px;
+    
+    text-shadow: 2px 2px 4px black;
+}
